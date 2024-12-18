@@ -1,0 +1,114 @@
+html {
+    min-height: 100%;
+    height: 100%;
+}
+body {
+    background-color: #223240;
+    position: relative;
+    min-height: 100%; 
+}
+#stuff {
+    position: relative;
+
+    padding-top: 100px; 
+    margin-bottom: 30px; 
+    overflow: auto; 
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+
+    border: thick double #32a1ce;
+    background-color: aliceblue;
+    right: 50%;
+    float: right;
+    
+
+    
+    
+    
+}
+
+#Image {
+    border: thick double #32a1ce;
+    background-color: aliceblue;
+    position: relative;
+    float: left;
+    top:85px;
+    
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    width: 40%;
+    height: 600px;
+}
+
+#Image img {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+.container{
+    background-color: aliceblue;
+    max-width: 50%;
+    width:50%;
+    position: relative;
+    
+    border: solid;
+    border-color: #60BF81;
+    border-width: medium;
+    border-radius: 5px;
+    margin: 20px auto;
+   
+}
+
+body {
+    background-color: #223240;
+}
+
+
+#Head {
+  position: fixed;
+  top: 0;
+  background-color:#3B8C66;
+  color: aliceblue;
+  font-size: larger;
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  z-index: 1;
+}
+
+#Bot {
+    position: absolute;
+    text-align: center;
+    bottom: 30px;
+    width: 100%;
+    background-color:#367356;
+    color: aliceblue;
+    font-size: larger;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 0;
+    z-index: 1;
+    
+    
+  }
+  
+
+#left {
+    background-color: blue;
+    position: relative;
+    
+}
+
+#logo{
+    
+    background: transparent;
+    background-image: url("logo.png");
+    width: 40%;
+    height: 30%;
+    
+    
+}
